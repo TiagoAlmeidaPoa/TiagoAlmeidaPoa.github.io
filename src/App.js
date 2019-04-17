@@ -1,6 +1,7 @@
 import React, { useState} from 'react';
 import About from './components/About/About'
 import Header from './components/Header/Header'
+import CallToAction from './components/CallToAction/CallToAction';
 // import Experiences from './Experiences'
 // import Portfolio from './Portfolio'
 // import Contato from './Contato';
@@ -15,6 +16,7 @@ const app = () => {
       return (
         <div>
             <Header></Header>
+            <CallToAction></CallToAction>
             <About></About>
             {/* <Experiences></Experiences>
             <Portfolio></Portfolio>
