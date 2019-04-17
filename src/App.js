@@ -1,6 +1,6 @@
 import React, { useState} from 'react';
 import About from './components/About/About'
-// import Header from '.Header'
+import Header from './components/Header/Header'
 // import Experiences from './Experiences'
 // import Portfolio from './Portfolio'
 // import Contato from './Contato';
@@ -14,7 +14,7 @@ const app = () => {
       
       return (
         <div>
-            {/* <Header></Header> */}
+            <Header></Header>
             <About></About>
             {/* <Experiences></Experiences>
             <Portfolio></Portfolio>

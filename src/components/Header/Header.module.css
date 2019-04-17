@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: pink !important;
+    border-bottom: solid 5px  rgb(0, 183, 255);
+    
+}
+
+.container li a {
+    font-family: sans-serif;
+    color:  rgb(0, 183, 255);
+    font-size: 30px;
+}
+.container ul {
+    justify-content: flex-end;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    /* width: 20px;
+    height: 20px; */
+}
