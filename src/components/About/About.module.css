@@ -1,0 +1,41 @@
+.container{
+    border-top: solid 5px  rgb(0, 183, 255); 
+    background-color: white;
+
+}
+.container h1{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color:rgba(77, 74, 75, 0.568);
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px black;
+}
+ h3{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(0, 183, 255);
+    text-transform: uppercase;
+}
+p{  
+    padding-left: 20px;
+    text-align: right;
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-transform: uppercase;
+
+}
+.html5{
+    color: orange;
+}
+.css3{
+    color: rgb(0, 183, 255);
+}
+.js{
+    color: rgba(0, 128, 43, 0.993);
+}

@@ -15,7 +15,7 @@ const header = props => {
           <Nav.Link eventKey="link-1">contato</Nav.Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Nav.Link eventKey="link-2">experiencias</Nav.Link>
+          <Nav.Link eventKey="link-2">experiências</Nav.Link>
         </Nav.Item>
       </Nav>
     </div>
