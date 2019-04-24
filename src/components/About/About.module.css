@@ -1,33 +1,29 @@
 .container{
     border-top: solid 5px  rgb(0, 183, 255); 
     background-color: white;
-
+    padding: 30px  15%;
+    border: solid 1px #eee;
 }
+
 .container h1{
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    text-align: center;
+    padding: 30px;
     color:rgba(77, 74, 75, 0.568);
     text-transform: uppercase;
     text-shadow: 3px 3px 5px black;
 }
+
  h3{
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    color: rgb(0, 183, 255);
     text-transform: uppercase;
 }
-p{  
-    padding-left: 20px;
-    text-align: right;
-    margin: 60px;
+.containerSkill {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    text-transform: uppercase;
+    align-items: center;
+    justify-content: space-between;
+}
+.info {  
+    margin-left: 20px;
+
 
 }
 .html5{

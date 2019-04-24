@@ -1,0 +1,8 @@
+.principal{
+    border: solid 2px 2px;
+    background-color: rgb(0, 223, 252); ;
+    padding: 30px 50px;
+}
+.principal h1 {
+    text-align: center;
+}
