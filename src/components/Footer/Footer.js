@@ -10,24 +10,25 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 
 
 
-library.add(faFacebook, faLinkedin, faGithub);
+library.add({faFacebook}, faLinkedin, faGithub);
 
 
 const footer = props => {
     return (
         <div className={FooterStyle.footer}>
-            
+
             {/* <FontAwesomeIcon icon={faLinkedin} />
             <FontAwesomeIcon icon={faGithub} />
             <FontAwesomeIcon icon="spinner" size="xs" /> */}
 
             <div className={[FooterStyle.brands]}>
                 <nav>
-                    <ul>
-                        <li><a href="www.facebook.com.br"><FontAwesomeIcon icon={faFacebook} /></a></li>;
-                        {/* <li><a href="#" class="fab fa-linkedin"></a></li>
-                        <li><a href="#" class="fab fa-github"></a></li> */}
-                    </ul>
+                    
+                        <a href="www.google.com.br"><FontAwesomeIcon icon={faFacebook} /></a>
+                        <a href="www.facebook.com.br"><FontAwesomeIcon icon={faLinkedin} /></a>
+                        <a href="www.facebook.com.br"><FontAwesomeIcon icon={faGithub} /></a>
+
+                    
                 </nav>
 
             </div>

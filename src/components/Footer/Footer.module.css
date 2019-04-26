@@ -1,21 +1,13 @@
 .footer{
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: gray;
-    border-top: solid 5px blue;
-}
-
-.brands  {
-   
-    background: green;
+    
+    background-color:black;
+    
 
 }
-.imagens img{
-    display: inline-block;
-    justify-content: space-between;
 
-    width: 50px;
-    text-align: right;
+
+.brands nav  {
+   padding: 0%;
+   display: flex;
+   justify-self: right;  
 }
