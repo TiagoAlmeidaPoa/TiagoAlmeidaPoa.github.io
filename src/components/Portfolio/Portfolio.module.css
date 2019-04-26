@@ -1,0 +1,23 @@
+.principal{
+    border-top : solid 6px  rgb(0, 102, 255);
+    background-color: white; ;
+    padding: 30px 50px;
+}
+.principal h1 {
+    text-align: center;
+    padding: 30px;
+    color:rgba(77, 74, 75, 0.568);
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px black;
+}
+.cards{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}

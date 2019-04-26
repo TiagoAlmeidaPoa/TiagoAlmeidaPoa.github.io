@@ -3,9 +3,9 @@ import About from './components/About/About'
 import Header from './components/Header/Header'
 import CallToAction from './components/CallToAction/CallToAction';
 import Experiences from './components/Experiences/Experiences';
-// import Portfolio from './Portfolio'
+import Portfolio from './components/Portfolio/Portfolio';
 // import Contato from './Contato';
-// import Footer from './Footer';
+import Footer from './components/Footer/Footer';
 
 
 const app = () => {
@@ -19,9 +19,9 @@ const app = () => {
             <CallToAction></CallToAction>
             <About></About>
             <Experiences></Experiences>
-            {/*<Portfolio></Portfolio>
-            <Contato></Contato>
-            <Footer></Footer> */}
+            <Portfolio></Portfolio>
+            {/* <Contato></Contato> */}
+            <Footer></Footer>
         </div> 
     )
 }
