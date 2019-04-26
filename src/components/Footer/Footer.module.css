@@ -1,13 +1,19 @@
-.footer{
-    
-    background-color:black;
-    
-
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
 }
 
+.face {
+    color: blue;
+    padding-left: 15px;
+}
 
-.brands nav  {
-   padding: 0%;
-   display: flex;
-   justify-self: right;  
+.linkedin {
+    padding: 6px;
+}
+
+.git {
+    color: white;
 }

@@ -7,6 +7,8 @@ const callToAction = props => {
   return (
     <div className={[CallToActionStyle.backgroundCover].join(" ")}>
 
+    
+
       <h1>
         Tiago Almeida
     </h1>

@@ -4,7 +4,7 @@ import Header from './components/Header/Header'
 import CallToAction from './components/CallToAction/CallToAction';
 import Experiences from './components/Experiences/Experiences';
 import Portfolio from './components/Portfolio/Portfolio';
-// import Contato from './Contato';
+import Contato from './components/Contato/Contato';
 import Footer from './components/Footer/Footer';
 
 
@@ -20,7 +20,7 @@ const app = () => {
             <About></About>
             <Experiences></Experiences>
             <Portfolio></Portfolio>
-            {/* <Contato></Contato> */}
+            <Contato></Contato>
             <Footer></Footer>
         </div> 
     )

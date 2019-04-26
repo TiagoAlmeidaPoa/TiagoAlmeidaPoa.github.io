@@ -1,5 +1,6 @@
 .backgroundCover {
     background: url(../../assets/bg-3.jpg);
+    image-orientation: url(../../assets/teclado.jpg);
     width: 100%;
     margin: auto;
     height: 500px;

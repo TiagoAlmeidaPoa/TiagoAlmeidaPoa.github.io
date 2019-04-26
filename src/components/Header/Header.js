@@ -3,8 +3,13 @@ import Nav from "react-bootstrap/Nav";
 import HeaderStyle from "./Header.module.css";
 import react from "./imagens/react.png";
 
+
+
+
 const header = props => {
   return (
+
+    
     <div className={[HeaderStyle.container].join(" ")}>
       <img src={react} alt="teste" className={HeaderStyle.react} />
       <Nav defaultActiveKey="/home" as="ul">
@@ -15,9 +20,10 @@ const header = props => {
           <Nav.Link eventKey="link-1">contato</Nav.Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Nav.Link eventKey="link-2">experiências</Nav.Link>
+          <Nav.Link eventKey="#">experiências</Nav.Link>
         </Nav.Item>
       </Nav>
+      
     </div>
     
   );
