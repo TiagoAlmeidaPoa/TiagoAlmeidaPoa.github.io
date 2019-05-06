@@ -23,9 +23,9 @@ const footer = props => {
             </div>
             <div >
                 <nav className={[FooterStyle.brands]}>
-                    <a className={[FooterStyle.face]} href="www.google.com.br"><FontAwesomeIcon icon={faFacebook} /></a>
-                    <a className={[FooterStyle.linkedin]} href="www.facebook.com.br"><FontAwesomeIcon icon={faLinkedin} /></a>
-                    <a className={[FooterStyle.git]} href="www.facebook.com.br"><FontAwesomeIcon icon={faGithub} /></a>
+                    <a className={[FooterStyle.face]} href="www.google.com.br"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
+                    <a className={[FooterStyle.linkedin]} href="www.facebook.com.br"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
+                    <a className={[FooterStyle.git]} href="www.facebook.com.br"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
 
 
                 </nav>

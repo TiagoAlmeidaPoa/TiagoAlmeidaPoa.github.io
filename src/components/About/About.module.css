@@ -17,6 +17,7 @@
     text-transform: uppercase;
 }
 .containerSkill {
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,10 +29,16 @@
 }
 .html5{
     color: orange;
+    margin-left: 100px;
+
 }
 .css3{
     color: rgb(0, 183, 255);
+    margin-left: 100px;
+
 }
 .js{
     color: rgba(0, 128, 43, 0.993);
+    margin-left: 100px;
+
 }
